@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  background-color: lightgrey;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li.main {
+  padding: 27px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+
+form {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+}
+
+label,
+input,
+textarea,
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+#about h1,
+p {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.grid-item {
+  text-align: center;
+}
+
+.grid-item p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 46px;
+}
+
+.grid-item img {
+  width: -webkit-fill-available;
+}
+
+#menu {
+  display: flex;
+  background-color: #333;
+}
+
+#menu ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#menu li {
+  flex-grow: 1;
+}
+
+#menu a {
+  display: block;
+  text-align: center;
+  padding: 1em;
+  color: #fff;
+  text-decoration: none;
+}
+
+#games {
+  text-align: left;
+}
+
+#line-div {
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  font-size: 76px;
+  margin: 0;
+  padding: 80px 0 41px 10px;
+  text-shadow: 3px -4px 5px #ffff, 4px 4px 4px #ffffff;
+}
+
+li:hover {
+  background-color: grey;
+}
+
+main div>img {
+  position: absolute;
+  width: 92px;
+  display: flex;
+  margin-left: 160px;
+  margin-top: 6px;
+}
+
+div.head {
+  background-image: url(img/bg1.jpg);
+  background-size: cover;
+  background-position: 0px -1290px;
+}
+
+.content {
+  min-height: 500px;
+}
+
+.content h1 {
+  text-align: center;
+  font-size: 40px;
+}
